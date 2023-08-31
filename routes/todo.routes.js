@@ -1,5 +1,5 @@
 const express = require("express");
-const todoController = require("../controller/todo.controller");
+const todoController = require("../controllers/todo.controller");
 const router = express.Router();
 
 router.post("/", todoController.createTodo);

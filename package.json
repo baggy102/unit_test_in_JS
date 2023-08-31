@@ -4,14 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest --watchAll"
+    "test": "jest --runInBand --detectOpenHandles"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.2",
-    "mongoose": "^7.4.4",
+    "mongodb": "^6.0.0",
+    "mongoose": "^7.5.0",
     "node-mocks-http": "^1.13.0"
   },
   "devDependencies": {
